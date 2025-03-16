@@ -7,10 +7,8 @@ import java.util.Scanner;
 public class Problem1 {
     public static void solution() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter n: ");
         int n = scan.nextInt();
         scan.nextLine();
-        System.out.print("Enter s: ");
         String s = scan.nextLine();
         int greatest_product = -1;
         for (int i = 1; i <= n; i++) {
